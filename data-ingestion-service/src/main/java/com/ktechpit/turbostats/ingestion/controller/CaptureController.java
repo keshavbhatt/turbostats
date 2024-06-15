@@ -3,7 +3,7 @@ package com.ktechpit.turbostats.ingestion.controller;
 import com.ktechpit.turbostats.common.model.Event;
 import com.ktechpit.turbostats.ingestion.constants.RoutesConstants;
 import com.ktechpit.turbostats.ingestion.service.EventIngestionService;
-import com.ktechpit.turbostats.ingestion.utilities.ResponseEntityProvider;
+import com.ktechpit.turbostats.common.utilities.ResponseEntityProvider;
 import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +36,7 @@ public class CaptureController {
     var ingested = eventIngestionService.ingest(event);
 
     return ingested
-        ? ResponseEntityProvider.success("Event sent")
+        ? ResponseEntityProvider.ok("Event sent")
         : ResponseEntityProvider.badRequest("Event not sent");
   }
 }

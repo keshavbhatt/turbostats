@@ -1,4 +1,4 @@
-package com.ktechpit.turbostats.ingestion.utilities;
+package com.ktechpit.turbostats.common.utilities;
 
 import java.util.Map;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,7 @@ public class ResponseEntityProvider {
     throw new IllegalStateException("Utility class");
   }
 
-  public static ResponseEntity<Map<String, String>> success(String message) {
+  public static ResponseEntity<Map<String, String>> ok(String message) {
     return ResponseEntity.ok(Map.of(MESSAGE, message));
   }
 
