@@ -1,2 +1,2 @@
-# turbostats
-Lightning-Fast Real-Time Analytics for Instant Insights and Data-Driven Decisions
+# Turbostats
+Lightning fast real-time analytics for instant insights and data-driven decisions
