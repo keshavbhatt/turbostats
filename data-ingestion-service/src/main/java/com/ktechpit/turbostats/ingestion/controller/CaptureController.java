@@ -36,7 +36,7 @@ public class CaptureController {
     var ingested = eventIngestionService.ingest(event);
 
     return ingested
-        ? ResponseEntityProvider.success("Event added")
-        : ResponseEntityProvider.badRequest("Failed to add event");
+        ? ResponseEntityProvider.success("Event sent")
+        : ResponseEntityProvider.badRequest("Event not sent");
   }
 }
