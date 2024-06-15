@@ -20,7 +20,7 @@
     <module>data-ingestion-service</module>
     <module>data-processing-service</module>
     <module>data-storage-service</module>
-    <module>security-service</module>
+    <module>auth-service</module>
     <module>geospatial-service</module>
   </modules>
   <properties>
