@@ -8,7 +8,13 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>data-ingestion-service</artifactId>
+
   <dependencies>
+    <dependency>
+      <groupId>com.ktechpit</groupId>
+      <artifactId>turbostats-common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -31,12 +37,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.ktechpit</groupId>
-      <artifactId>turbostats-common</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>
