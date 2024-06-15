@@ -8,7 +8,7 @@ public class ResponseEntityProvider {
   public static final String MESSAGE = "message";
 
   private ResponseEntityProvider() {
-
+    throw new IllegalStateException("Utility class");
   }
 
   public static ResponseEntity<Map<String, String>> success(String message) {
