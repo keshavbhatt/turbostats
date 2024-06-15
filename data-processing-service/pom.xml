@@ -10,7 +10,7 @@
 		<artifactId>turbostats</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>data-processing-service</artifactId>
+	<artifactId>turbostats-data-processing-service</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -11,7 +11,7 @@
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
-	<artifactId>data-storage-service</artifactId>
+	<artifactId>turbostats-data-storage-service</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

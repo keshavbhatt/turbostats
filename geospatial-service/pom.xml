@@ -10,7 +10,7 @@
 		<artifactId>turbostats</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>geospatial-service</artifactId>
+	<artifactId>turbostats-geospatial-service</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
