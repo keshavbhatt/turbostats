@@ -9,11 +9,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import java.util.Set;
 import lombok.Data;
 
 @Data
-@Entity(name = "organization")
+@Entity
+@Table(name = "organization")
 public class Organization {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

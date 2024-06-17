@@ -9,11 +9,13 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import java.util.Set;
 import lombok.Data;
 
 @Data
-@Entity(name = "account")
+@Entity
+@Table(name = "account")
 public class Account {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
